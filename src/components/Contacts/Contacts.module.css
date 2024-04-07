@@ -1,0 +1,25 @@
+.contacts__body {
+    position: absolute;
+    top: 155px;
+    background: white;
+    flex: 0.35;
+    width: 30%;
+    z-index: 1000;
+    margin-top: 20px;
+  }
+  
+  .contacts__body > ul > li {
+    cursor: pointer;
+    padding: 8px;
+    border-bottom: 1px solid rgb(247, 234, 234);
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contacts__body > ul {
+    padding: 0;
+  }
+  .contacts__body > ul > li > span {
+    margin-left: 10px;
+  }
